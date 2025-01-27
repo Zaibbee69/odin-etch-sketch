@@ -1,0 +1,29 @@
+body
+{
+    box-sizing: border-box;
+    background-color: lightgray;
+}
+
+.container
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 0;
+
+    margin-top: 8px;
+  
+    width: 600px;
+    height: 600px;
+}
+
+.main-container {
+    margin-top: 50px;
+  }
+
+.grid-element
+{
+    background-color: red;
+    border: 1px solid black;
+    
+}
